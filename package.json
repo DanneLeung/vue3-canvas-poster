@@ -1,11 +1,12 @@
 {
   "name": "vue3-canvas-poster",
-  "private": false,
   "version": "1.0.0",
   "type": "module",
   "author": "Danne Leung <lshefan@163.com>",
   "license": "MIT",
   "main": "./dist/vue3-canvas-poster.umd.cjs",
+  "module": "./dist/vue3-canvas-poster.js",
+  "private": false,
   "repository": {
     "type": "git",
     "url": "https://github.com/DanneLeung/vue3-canvas-poster"

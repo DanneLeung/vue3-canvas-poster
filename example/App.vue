@@ -8,7 +8,7 @@
 <script lang="ts">
 import { drawPoster } from './painter'
 export default {
-  name: 'app',
+  name: 'App',
   components: {
   },
   data() {

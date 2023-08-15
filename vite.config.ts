@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import { resolve, join } from 'path'
+import { resolve } from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -8,20 +8,22 @@ export default defineConfig({
   assetsInclude: ['**/*.jpg', '**/*.png'],
   resolve: {
     alias: {
-      '@': join(__dirname, '/src'),
+      '@': resolve(__dirname, 'example'),
     }
   },
   build: {
     lib: {
-      entry: join(__dirname, 'src/lib/index.js'),
+      entry: resolve(__dirname, 'package/index.js'),
       name: 'Vue3CanvasPoster',
       fileName: 'vue3-canvas-poster'
     },
     rollupOptions: {
-      external: [],
+      external: ['vue'],
       output: {
         exports: 'named',
-    //     globals: []
+        globals: {
+          vue: 'Vue'
+        }
       }
     }
   }

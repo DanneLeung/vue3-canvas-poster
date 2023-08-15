@@ -21,6 +21,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "src/lib/gradient.js", "src/lib/painter.js", "src/lib/qrcode.js", "src/lib/util.js", "src/lib/index.js"],
+  "include": ["package/**/*.ts", "package/**/*.d.ts", "package/**/*.tsx", "package/**/*.vue", "package/**/*.js", "vite.env.d.ts" ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

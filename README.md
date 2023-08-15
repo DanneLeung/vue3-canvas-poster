@@ -1,18 +1,7 @@
-# Vue 3 + TypeScript + Vite
+# Vue3 Canvas Poster 🎉
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+[Vue3 Canvas Poster](https://github.com/DanneLeung/vue3-canvas-poster) 是[Vue Canvas Poster](https://sunniejs.github.io/vue-canvas-poster)的Vue3版本，因原仓库没有更新支持vue3，故在原代码上升级支持vue3，基本使用方法等与原来一致，文档请参照原仓库文档。
 
-## Recommended IDE Setup
+> [Vue Canvas Poster](https://sunniejs.github.io/vue-canvas-poster)一个通过 css 属性画 canvas 图片的轻量级的 vue 组件。 (A lightweight vue components use canvas draw image by css properties.)
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Type Support For `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+[原Vue Canvas Poster 文档](https://sunniejs.github.io/vue-canvas-poster/#/)
