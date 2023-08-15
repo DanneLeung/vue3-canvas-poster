@@ -1,6 +1,6 @@
 // 海报图
 import avatar from '@/assets/avatar.png'
-import product from '@/assets/1.jpg'
+import product from '@/assets/product.jpg'
 export function drawPoster(data: any) {
   return new Promise(function (resolve) {
     switch (data.type) {

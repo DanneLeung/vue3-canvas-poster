@@ -1,9 +1,7 @@
 <template>
-  <div id="app">
-    <img :src="src" alt="" class="share-image">
-    <vue-canvas-poster class="poster" :widthPixels="1000" :painting="painting" @success="success"
-      @fail="fail"></vue-canvas-poster>
-  </div>
+  <img :src="src" alt="" class="share-image">
+  <vue-canvas-poster class="poster" :widthPixels="1000" :painting="painting" @success="success"
+    @fail="fail"></vue-canvas-poster>
 </template>
 <script lang="ts">
 import { drawPoster } from './painter'
@@ -21,7 +19,7 @@ export default {
     const params = {
       type: 'pro' // 尝试换一下text,image
     }
-    drawPoster(params).then((res:any) => {
+    drawPoster(params).then((res: any) => {
       this.painting = res
     })
   },

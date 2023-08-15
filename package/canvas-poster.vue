@@ -97,7 +97,7 @@ export default {
             this.canvasWidthInPx = this.widthPixels
           }
           this.canvasHeightInPx = height.toPx()
-          this.painterStyle = `width:${this.canvasWidthInPx}px;height:${this.canvasHeightInPx}px;`
+          this.painterStyle = `width:${this.canvasWidthInPx}px;height:${this.canvasHeightInPx}px;position: fixed;visibility: hidden;`
           this.canvas = this.$refs.canvas // 指定canvas
           this.canvas.width = this.canvasWidthInPx
           this.canvas.height = this.canvasHeightInPx
@@ -211,9 +211,3 @@ function setStringPrototype(scale) {
   }
 }
 </script>
-<style scoped>
-.canvas {
-  position: fixed;
-  top: 2000px;
-}
-</style>
