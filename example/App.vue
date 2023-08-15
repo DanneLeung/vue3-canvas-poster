@@ -1,13 +1,15 @@
 <template>
   <img :src="src" alt="" class="share-image">
-  <vue-canvas-poster class="poster" :widthPixels="1000" :painting="painting" @success="success"
-    @fail="fail"></vue-canvas-poster>
+  <vue3-canvas-poster class="poster" :widthPixels="1000" :painting="painting" @success="success"
+    @fail="fail"></vue3-canvas-poster>
 </template>
 <script lang="ts">
+import Vue3CanvasPoster from '../dist/vue3-canvas-poster'
 import { drawPoster } from './painter'
 export default {
   name: 'App',
   components: {
+    Vue3CanvasPoster
   },
   data() {
     return {

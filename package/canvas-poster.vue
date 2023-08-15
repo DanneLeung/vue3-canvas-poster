@@ -1,9 +1,9 @@
 <script>
-import { h } from 'vue'
+import { h, defineComponent } from 'vue'
 import Painter from './painter'
 import { equal } from './util'
-export default {
-  name: 'VueCanvasPoster',
+export default defineComponent({
+  name: 'Vue3CanvasPoster',
   props: {
     painting: {
       type: Object,
@@ -181,7 +181,7 @@ export default {
       })
     }
   }
-}
+})
 function setStringPrototype(scale) {
   /* eslint-disable no-extend-native */
   /**

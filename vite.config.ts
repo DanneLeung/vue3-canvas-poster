@@ -14,6 +14,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, 'package/index.js'),
+      formats: ['es', 'umd'],
       name: 'Vue3CanvasPoster',
       fileName: 'vue3-canvas-poster'
     },
