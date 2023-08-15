@@ -38,10 +38,8 @@
   ],
   "exports": {
     ".": {
-      "import": [
-        "./dist/vue3-canvas-poster.js",
-        "./dist/vue3-canvas-poster.umd.cjs"
-      ]
+      "import": "./dist/vue3-canvas-poster.js",
+      "require": "./dist/vue3-canvas-poster.umd.js"
     }
   }
 }
